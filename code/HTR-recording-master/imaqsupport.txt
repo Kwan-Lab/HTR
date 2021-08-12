@@ -1,0 +1,783 @@
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.8.0.1538580 (R2020a) Update 6
+MATLAB License Number: 365438
+Operating System: Microsoft Windows 10 Enterprise Version 10.0 (Build 19042)
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+Image Acquisition Toolbox                             Version 6.2         (R2020a)
+
+----------SUPPORT PACKAGE DIAGNOSTICS----------
+
+                                       Name                                        Version       Base Product       
+---------------------------------------------------------------------------------- ------- -------------------------
+Image Acquisition Toolbox Support Package for GigE Vision Hardware                 20.1.2  Image Acquisition Toolbox
+Image Acquisition Toolbox Support Package for Teledyne DALSA Sapera Hardware       20.1.1  Image Acquisition Toolbox
+Data Acquisition Toolbox Support Package for National Instruments NI-DAQmx Devices 20.1.0  Data Acquisition Toolbox
+
+
+
+----------DATE/TIME----------
+
+12-Jul-2021 16:54:59
+
+
+----------DIRECTX----------
+
+DirectX Version: OS Generic Video Support Package not installed
+
+
+----------STAND ALONE HARDWARE DETECTION----------
+
+Hardware detection application for the R2020a version of Image Acquisition Toolbox.
+
+Detecting hardware for the winvideo adaptor.
+
+	No compatible devices found.
+
+Unable to run the detector for the dcam.  The error was: 
+	The specified module could not be found.
+
+
+
+----------AVAILABLE HARDWARE----------
+
+    InstalledAdaptors: {'dalsa'  'gige'}
+        MATLABVersion: '9.8 (R2020a)'
+          ToolboxName: 'Image Acquisition Toolbox'
+       ToolboxVersion: '6.2 (R2020a)'
+
+
+----------THIRD PARTY ADAPTORS REGISTERED WITH IMAQREGISTER----------
+
+
+ans =
+
+  0×1 empty <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+
+----------DALSA ADAPTOR----------
+
+Adaptor Name: dalsa
+Adaptor DLL: C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\dalsasapera\adaptor\win64\mwdalsaimaq.dll
+
+IMAQHWINFO: 
+No devices were detected for the 'dalsa' adaptor. For troubleshooting device detection issues, click <a href="matlab: helpview(fullfile(docroot,'imaq','imaq_ug.map'),'ts_dalsasapera');">here</a>.
+       AdaptorDllName: 'C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\dalsasapera\adaptor\win64\mwdalsaimaq.dll'
+    AdaptorDllVersion: '6.2 (R2020a)'
+          AdaptorName: 'dalsa'
+            DeviceIDs: {1×0 cell}
+           DeviceInfo: [1×0 struct]
+
+
+Available Devices: 
+
+----------GIGE ADAPTOR----------
+
+Adaptor Name: gige
+Adaptor DLL: C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\gige\adaptor\win64\mwgigeimaq.dll
+
+IMAQHWINFO: 
+No devices were detected for the 'gige' adaptor. For troubleshooting device detection issues, click <a href="matlab: helpview(fullfile(docroot,'imaq','imaq_ug.map'),'ts_gige');">here</a>.
+       AdaptorDllName: 'C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\gige\adaptor\win64\mwgigeimaq.dll'
+    AdaptorDllVersion: '6.2 (R2020a)'
+          AdaptorName: 'gige'
+            DeviceIDs: {1×0 cell}
+           DeviceInfo: [1×0 struct]
+
+
+Available Devices: 
+
+
+----------EXISTING VIDEOINPUT OBJECT DISPLAY----------
+
+
+----------VIDEOINPUT OBJECT CREATION - DALSA----------
+
+
+----------VIDEOINPUT OBJECT CREATION - GIGE----------
+
+
+
+----------MATLAB ROOT DIRECTORY----------
+
+	C:\Program Files\MATLAB\R2020a
+
+----------MATLAB PATH----------
+
+
+		MATLABPATH
+
+	C:\Users\md2373\OneDrive - Yale University\Documents\MATLAB
+	C:\Users\md2373\AppData\Local\Temp\1\Editor_vxdxq
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\capabilities
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datafun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\elfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\elmat
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\funfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\general
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\iofun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\lang
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\matfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\mvm
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\ops
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\polyfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\randfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\sparfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\specfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\strfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\timefun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\validators
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\desktop_variableeditor\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\desktop_workspacebrowser\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\calendarDuration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\categorical
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\codegen\categorical
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\shared\codegen
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\datetime
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\codegen\datetime
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\datetime_nonlibmatlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\duration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\codegen\duration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\shared\matlab_datatypes
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\tabular
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatypes\codegen\tabular
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\demos
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\plottools\inspector
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graph2d
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graph3d
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\annotation
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\axis
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\chart
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\color
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\function
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\illustration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\legacy
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\obsolete
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\printing
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\objectsystem
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\primitive
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\plottools
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\scribe
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\scribe\obsolete
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\specgraph
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uitools
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uitools\obsolete
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\hardware\stubs
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\images
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\iot
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\iot\connectivity
+	C:\Program Files\MATLAB\R2020a\toolbox\local
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\maps
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphics\maps
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\optimfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\bigdata
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\codeanalysis\reports\analysis
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\codetools
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\codetools\embeddedoutputs
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\codetools\embeddedoutputs\DataToolsRegistration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\codetools\liveapps
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datamanager
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datastoreio
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\dataui
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\depfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\graphfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\guide
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\helptools
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\icons
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\mapreduceio
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\parallel
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\parquetds
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\parquetio
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\measurement\core
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\measurement\ext
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\mock\core
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\performance\core
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\performance\ext
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\uiautomation
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\uitest
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\ui\toolstrip
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\unittest\core
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\obsolete
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\testframework\unittest\ext
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\verctrl
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\winfun
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\winfun\NET
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\configset_model\configset
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\configset_model\configset\derived
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\sldependency
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\stateflow
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addons
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addons\cef
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addons\fileexchange
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addons\supportpackages
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addons_product
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\supportpackagemanagement
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addon_updates\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\addon_enable_disable_management\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\appcontainer\appcontainer
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\appdesigner\appdesigner
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\appdesigner\appdesigner\interface
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\appdesigner\appdesigner\runtime
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\apps
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\audiovideo
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\cefclient
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\codedescriptor_core
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\trace
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\comparisons
+	C:\Program Files\MATLAB\R2020a\toolbox\comparisons\view\edits
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\configtools
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\common
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\configuration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\connector
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\editor
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\figures
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\http
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\interpreter
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\logger
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\messageservice
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\mgg
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\nativebridge
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\restmatlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\session
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\shadowfiles
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\connector2\worker
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\cpp
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\reports
+	C:\Program Files\MATLAB\R2020a\toolbox\da
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\datatoolsservices\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\editorconverters\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\importtool\matlab\peer
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\importtool\matlab\server
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\inspector\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\inspector\registration
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\peermodel_mcos\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\plotstab\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\variableeditor\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\datatools\workspacebrowser\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\ddux
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\spc\src_ml
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\dsp\simulink\dsp
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\embeddedoutputs\outputs
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\embeddedoutputs\outpututilities
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\engines\engine_api
+	C:\Program Files\MATLAB\R2020a\examples\deeplearning_shared\data
+	C:\Program Files\MATLAB\R2020a\examples\graphics\data
+	C:\Program Files\MATLAB\R2020a\examples\images\data
+	C:\Program Files\MATLAB\R2020a\examples\imaq\data
+	C:\Program Files\MATLAB\R2020a\examples\matlab\data
+	C:\Program Files\MATLAB\R2020a\examples\matlabmobile\data
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\filebrowser
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\findfiles\m
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uitools\uicomponents\components
+	C:\Program Files\MATLAB\R2020a\toolbox\hdlcoder\hdllib\ml_lib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hadoopserializer
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\appdes\services
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwconnection
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\devicedetection
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\devices
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\providers
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\plugins
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\hwsetup
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwmanagerapp\devicedata
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwservices\hwinfo
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwsetup
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwsetup\hwwidgets
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwsetup\hwtemplates
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\hwsetup\launch
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwmanager\logger
+	C:\Program Files\MATLAB\R2020a\toolbox\images\colorspaces
+	C:\Program Files\MATLAB\R2020a\toolbox\images\images
+	C:\Program Files\MATLAB\R2020a\toolbox\images\imdata
+	C:\Program Files\MATLAB\R2020a\toolbox\images\imuitools
+	C:\Program Files\MATLAB\R2020a\toolbox\images\iptformats
+	C:\Program Files\MATLAB\R2020a\toolbox\images\iptutils
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\imagesci
+	C:\Program Files\MATLAB\R2020a\toolbox\images\deep
+	C:\Program Files\MATLAB\R2020a\toolbox\images\imdemos
+	C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaq
+	C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqdemos
+	C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqblks\imaqblks
+	C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqblks\imaqmex
+	C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqblks\imaqmasks
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\instrument
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\m3i
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\mex
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\mex
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mldatx
+	C:\Program Files\MATLAB\R2020a\ui\mw-webwindow\mw-webwindow-m
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\networklib
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\pathdataservice\pathdataservice-m
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\pathtool
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\cxxfe_mi\cxxfe_mi
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\polyspace
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\profileviewer
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\project
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\project\example
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\project\toolstrip
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\simulink\slproject
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\simulink\slproject\menu
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\project\dependency
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\project\dependency_viewer
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\python
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\registration_framework\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\resources_folder
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\richcontent_preview\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\rptgen\xmlcomp
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\serial
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\serialport
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\advisor
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\asynciolib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\blelib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\cgir_fe
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\cgxe\cgxe
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\cmlink\matlab
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\coder\coder
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\coder\coder\gpucoder
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\coder\reportinfo
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\codergui\codergui
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\coder\coder\lib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\configset
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\configset_view\m
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\controllib\general
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\controllib\graphics
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\controllib\graphics\utils
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\controllib\graphics\plotoptions
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\cxxfe\parser_mi\parser_mi
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\dastudio
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\deviceplugindetection
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hotpluglib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\hwconnectinstaller\common
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\imageslib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\imageio
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\imaqlib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\io
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\maputils
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlarrow
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\dom
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\dom\dom
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\dom\dom\help
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\ppt
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\ppt\ppt
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\ppt\ppt\help
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\rpt
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\rpt\rpt
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\mlreportgen\utils
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\multimedia
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\networklib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\pointclouds
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\rptgen
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\seriallib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\siglib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\system\simulink_block
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\slcc_cov\slcc_cov
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\sl_coverage_configset
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\spreadsheet
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportpkgservices\legacysupportpkginfo
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportpkgservices\installservices
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportpkgservices\supportpackageroot
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportpkgservices\installedapi
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportsoftware\launcher
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportsoftware\services
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\supportsoftware\upgrade
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\system\sfun
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\testmeaslib\general
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\testmeaslib\graphics
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\testmeaslib\simulink
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\transportclients
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\transportlib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\virtualfileio
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\simulink
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\passmanager
+	C:\Program Files\MATLAB\R2020a\toolbox\simulink\simulink_data_dictionary\sldd
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\diagnostic
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\storage\matlabdrive
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\storage\mldrivedesktop
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\system
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\system\editor
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\template_core
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\timeseries
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\toolboxmanagement\matlab_api
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\toolbox_packaging
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\toolstrip
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uicomponents\uicomponents\plugin\appdesigner
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uicomponents\uicomponents
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uicomponents\uicomponents\graphics
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uicomponents\uicomponents\style
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\uicomponents\uicomponents\uicontrol
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\spcuilib\unifiedscopes
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\updateinstaller
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\viewmodel\viewmodel
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\webcam
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\webservices\http
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\json
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\webservices\restful
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\webservices
+	C:\Program Files\MATLAB\R2020a\toolbox\matlab\external\interfaces\webservices\wsdl
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daq
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\apps\daqaiapplet
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\apps\daqaoapplet
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\apps\shared
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\cli
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqdemos
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\apps\provider
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqsdk\bin\win64
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqsdk
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqsdk\tests
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqblks
+	C:\Program Files\MATLAB\R2020a\toolbox\daq\daqblks\daqsfcn
+	C:\Program Files\MATLAB\R2020a\examples\daq\data
+	C:\Program Files\MATLAB\R2020a\examples\daq_stateflow\data
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\coder
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\compile
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\build
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\connectivity
+	C:\Program Files\MATLAB\R2020a\toolbox\rtw\targets\connectivity
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\connectivity_core
+	C:\Program Files\MATLAB\R2020a\toolbox\rtw\rtw
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\build\tools\registry
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\tfl
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\tfl\AUTOSAR\AUTOSAR4p0\IFX
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\tfl\AUTOSAR\AUTOSAR4p0\IFL
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\tfl\gui
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\foundation\templates
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\simtargets
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\profile
+	C:\Program Files\MATLAB\R2020a\toolbox\coder\rtiostream
+	C:\Program Files\MATLAB\R2020a\toolbox\eml\eml
+	C:\Program Files\MATLAB\R2020a\examples\audio\data
+	C:\Program Files\MATLAB\R2020a\examples\audio_wavelet\data
+	C:\Program Files\MATLAB\R2020a\examples\predmaint_shared\data
+	C:\Program Files\MATLAB\R2020a\examples\signal\data
+	C:\Program Files\MATLAB\R2020a\examples\wavelet\data
+	C:\Program Files\MATLAB\R2020a\toolbox\fixedpoint\fixedpoint
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\polyspace\configure_mi
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\sdi_matlabunit
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\asam\mdf
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\controllib\estimation
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\filterdesignlib
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\filterdesignlib\filterbuilder
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\measure
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\sdi
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\sdi_visuals
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\signalwavelet\signalwavelet
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\sl_async_streaming
+	C:\Program Files\MATLAB\R2020a\toolbox\shared\system\coder
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\signal
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\sigtools
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\sptoolgui
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\sigdemos
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\sigappsshared
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\signalanalyzer
+	C:\Program Files\MATLAB\R2020a\toolbox\signal\signallabeler
+	C:\Program Files\MATLAB\R2020a\toolbox\targetframework\matlab
+	C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\daq\supportpackages\nidaq
+	C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\dalsasapera
+	C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\gige
+	C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\gige\gigevisionhardwareexamples
+
+----------C:\PROGRAMDATA\MATLAB\SUPPORTPACKAGES\R2020A\TOOLBOX\IMAQ\SUPPORTPACKAGES\DALSASAPERA\ADAPTOR\WIN64 Directory----------
+
+ Volume in drive C is Windows
+ Volume Serial Number is 56F5-2E3D
+
+ Directory of C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\dalsasapera\adaptor\win64
+
+07/09/2021  03:57 PM    <DIR>          .
+07/09/2021  03:57 PM    <DIR>          ..
+10/01/2020  03:55 PM           104,960 dalsaSapera6.dll
+10/01/2020  03:55 PM           106,496 dalsaSapera8.dll
+10/01/2020  03:54 PM           115,200 mwdalsaimaq.dll
+11/19/2019  05:30 PM            64,678 mwdalsaimaq.imdf
+               4 File(s)        391,334 bytes
+               2 Dir(s)  1,923,157,422,080 bytes free
+
+----------C:\PROGRAMDATA\MATLAB\SUPPORTPACKAGES\R2020A\TOOLBOX\IMAQ\SUPPORTPACKAGES\GIGE\ADAPTOR\WIN64 Directory----------
+
+ Volume in drive C is Windows
+ Volume Serial Number is 56F5-2E3D
+
+ Directory of C:\ProgramData\MATLAB\SupportPackages\R2020a\toolbox\imaq\supportpackages\gige\adaptor\win64
+
+07/09/2021  03:58 PM    <DIR>          .
+07/09/2021  03:58 PM    <DIR>          ..
+01/23/2020  02:28 PM           279,040 genicamadaptor.dll
+01/23/2020  02:28 PM           897,536 genicamshared.dll
+04/02/2021  05:52 PM           523,264 gigeacquisition.dll
+01/23/2020  02:38 PM           555,520 gigecontroller.dll
+01/23/2020  02:47 PM           526,336 gigedevice.dll
+01/23/2020  02:46 PM           259,072 gigediscovery.dll
+01/23/2020  02:30 PM           596,992 gigegvcpnet.dll
+01/23/2020  02:29 PM           139,776 gigemlconverter.dll
+01/23/2020  02:28 PM            85,504 gigepacket.dll
+01/23/2020  02:28 PM            29,696 gigesupport.dll
+01/23/2020  02:29 PM           166,912 gigetestdevice.dll
+01/23/2020  02:43 PM           384,000 mwgigeimaq.dll
+11/19/2019  05:50 PM            18,813 mwgigeimaq.imdf
+              13 File(s)      4,462,461 bytes
+               2 Dir(s)  1,923,157,422,080 bytes free
+
+----------CPU/SYSTEM INFORMATION----------
+
+
+--------------------CPUINFO--------------------
+
+CPU 1: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 2: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 3: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 4: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 5: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 6: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 7: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 8: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 9: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 10: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 11: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 12: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 13: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 14: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 15: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 16: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 17: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 18: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 19: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 20: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 21: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 22: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 23: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 24: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 25: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 26: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 27: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 28: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 29: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 30: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 31: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 32: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 33: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 34: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 35: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 36: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 37: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 38: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 39: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 40: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 41: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 42: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 43: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 44: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 45: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 46: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 47: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 48: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 49: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 50: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 51: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 52: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 53: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 54: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 55: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 56: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 57: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 58: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 59: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 60: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 61: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 62: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 63: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 64: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 65: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 66: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 67: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 68: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 69: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 70: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 71: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 72: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 73: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 74: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 75: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 76: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 77: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 78: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 79: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 80: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 81: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 82: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 83: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 84: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 85: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 86: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 87: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 88: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 89: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 90: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 91: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 92: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 93: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 94: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 95: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 96: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 97: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 98: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 99: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 100: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 101: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 102: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 103: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 104: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 105: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 106: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 107: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 108: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 109: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 110: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 111: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 112: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 113: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 114: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 115: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 116: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 117: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 118: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 119: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 120: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 121: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 122: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 123: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 124: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 125: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 126: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 127: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+CPU 128: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+
+--------------------SYSTEMINFO--------------------
+
+
+Host Name:                 MWMJ0DJEVC
+OS Name:                   Microsoft Windows 10 Enterprise
+OS Version:                10.0.19042 N/A Build 19042
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Eisenman, Kraig
+Registered Organization:   Yale University
+Product ID:                00330-80000-00000-AA285
+Original Install Date:     7/7/2021, 4:07:13 PM
+System Boot Time:          7/12/2021, 4:43:59 PM
+System Manufacturer:       LENOVO
+System Model:              30E1S0NE00
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 49 Stepping 0 AuthenticAMD ~2700 Mhz
+BIOS Version:              LENOVO S07KT1FA, 5/19/2021
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:     65,373 MB
+Available Physical Memory: 57,201 MB
+Virtual Memory: Max Size:  75,101 MB
+Virtual Memory: Available: 66,759 MB
+Virtual Memory: In Use:    8,342 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    yu.yale.edu
+Logon Server:              \\VM-ADPRDDCY-03
+Hotfix(s):                 9 Hotfix(s) Installed.
+                           [01]: KB4601554
+                           [02]: KB4562830
+                           [03]: KB4570334
+                           [04]: KB4577266
+                           [05]: KB4577586
+                           [06]: KB4580325
+                           [07]: KB4589212
+                           [08]: KB5004945
+                           [09]: KB5003742
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+                                 Connection Name: Ethernet 3
+                                 Status:          Hardware not present
+                           [02]: TP-Link Wireless USB Adapter
+                                 Connection Name: Wi-Fi 3
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     130.132.1.56
+                                 IP address(es)
+                                 [01]: 172.26.237.241
+                                 [02]: fe80::749e:40c7:58c6:5b49
+                           [03]: Marvell AQtion 10Gbit Network Adapter
+                                 Connection Name: Ethernet 4
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     255.255.255.255
+                                 IP address(es)
+                                 [01]: 169.254.221.172
+                                 [02]: fe80::3de2:1d99:e098:ddac
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+----------SETTINGS----------
+
+Use Little Endian DCAM = 0
+Packet Timeout = 500
+Heartbeat Timeout = 1000
+Packet Retries = 1
+Disable Force IP = 0
+Disable Packet Resend = 0
+Preview Full Bit Depth = 0
+
+----------DYNAMIC LOADER PATH----------
+
+
+--------------------PATH--------------------
+
+C:\Program Files\Teledyne DALSA\GenICam 3.20\bin\Win64_x64\
+C:\Program Files\Teledyne DALSA\GenICam 3.20\bin\Win64_x64\
+C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqextern\drivers\win64\genicam\GenICam_V3_1_0\bin\Win64_x64
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\oracle\product\11.2.0\client_1\bin
+C:\WINDOWS\SysWOW64\
+C:\WINDOWS\SysWOW64\Wbem
+C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0
+C:\Program Files\Microsoft Application Virtualization\Sequencer
+C:\Program Files\MATLAB\R2020a\bin
+C:\Program Files\GenICam_v2_4\bin\Win64_x64
+C:\Program Files\CameraLink\Serial
+C:\Users\md2373\AppData\Local\Microsoft\WindowsApps
+
+----------ENVIRONMENT VARIABLES----------
+
+
+--------------------GENICAM--------------------
+
+GENICAM_CACHE_V3_1_0 = C:\Users\md2373\AppData\Roaming\MathWorks\MATLAB\R2020a\GenICamXMLCache
+	 C:\Users\md2373\AppData\Roaming\MathWorks\MATLAB\R2020a\GenICamXMLCache present.
+
+GENICAM_LOG_CONFIG_V3_1_0 = C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqextern\drivers\win64\genicam\GenICam_V3_1_0\log\config\DefaultLogging.properties
+	 C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqextern\drivers\win64\genicam\GenICam_V3_1_0\log\config\DefaultLogging.properties present.
+
+GENICAM_ROOT_V3_1_0 = C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqextern\drivers\win64\genicam\GenICam_V3_1_0
+	 C:\Program Files\MATLAB\R2020a\toolbox\imaq\imaqextern\drivers\win64\genicam\GenICam_V3_1_0 present.
+
+MWIMAQ_GENICAM_XML_FILES = 
+
+--------------------GENTL--------------------
+
+GENICAM_GENTL64_PATH = 
+
+--------------------END TEST--------------------
+
+This information has been saved in the text file: 
+imaqsupport.txt
+
+If any errors occurred, please e-mail this information to:
+support@mathworks.com
